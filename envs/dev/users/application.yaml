@@ -6,7 +6,7 @@ metadata:
     argocd-image-updater.argoproj.io/image-list: users=146256358142.dkr.ecr.us-east-1.amazonaws.com/users:0.x
     argocd-image-updater.argoproj.io/users.update-strategy: semver
     argocd-image-updater.argoproj.io/write-back-method: git
-notifications.argoproj.io/subscribe.on-sync-succeeded.slack: devops
+    notifications.argoproj.io/subscribe.on-sync-succeeded.slack: devops
   finalizers:
     - argocd.argoproj.io/resources-finalizer
   name: users-dev

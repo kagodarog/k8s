@@ -13,7 +13,7 @@ helm:
     value: /healthz
     forcestring: false
   - name: image.tag
-    value: 0.1.4
+    value: 2.5.1
     forcestring: true
   - name: image.name
     value: 146256358142.dkr.ecr.us-east-1.amazonaws.com/payments
